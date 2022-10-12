@@ -5,7 +5,19 @@ function init(){
   renderPortfoliosItems()
   // $('.portfolio-link').on('click',(puki)=>{onRenderModal(puki.currentTarget.dataset.id)})
   $('.portfolio-link').on('click',function(){onRenderModal(this.dataset.id)})
+  $('.contact-form .btn').on('click',function(){openSendEmail()})
 
+}
+
+
+function openSendEmail(){
+  const $elForm = $('.contact-form')
+  const $subject = $elForm.find('.subject').val()
+  const $email = $elForm.find('.email').val()
+  const $body = $elForm.find('.body').val()
+  window.open(
+  `https://mail.google.com/mail/?view=cm&fs=1&to=nadav.shambi@gmail.com&su=${$subject}&body=${$body}`)
+  
 }
 
 
@@ -14,7 +26,7 @@ function renderPortfoliosItems(){
   // open css file  
   const strHTML =  projects.map(project=>{
     return`
-    <div class="col-md-4 col-sm-6 portfolio-item">
+    <div class="col-md-4 col-sm-6 portfolio-item pt-3 ">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" data-id="${project.id}">
             <div class="portfolio-hover d-flex align-items-center justify-content-center bg-dark">
               <div class="portfolio-hover-content ">

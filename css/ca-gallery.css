@@ -353,7 +353,7 @@ header.masthead .intro-text .intro-heading {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: white;
+    background-color: transparent;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -916,4 +916,12 @@ img.img-fluid.align-self-center {
     height: 12rem;
     object-fit: cover;
     width: 100%;
+}
+
+.col-md-4.col-sm-6.portfolio-item:nth-child(odd){
+    box-shadow: inset 0 0 150px #333;
+    padding: 50px;
+}
+.col-md-4.col-sm-6.portfolio-item:nth-child(even){
+    box-shadow: inset 0 0 50px #999;
 }

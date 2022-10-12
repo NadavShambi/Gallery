@@ -33,20 +33,22 @@
    
     <!-- Contact -->
     <section>
-      <form class="actual-form">
+      <form class="contact-form">
       <h4 class="text-primary my-3">Contact Me</h4>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label text-primary my-3">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1"
+          <input type="email" class="form-control email" id="exampleInputEmail1"
           placeholder="example@mail.com" 
-          palcearia-describedby="emailHelp">
-          
+          palcearia-describedby="emailHelp" required>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label text-primary my-3">Description </label>
-          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tell me more about...">
+          <label for="exampleInputPassword1" class="form-label text-primary my-3">Subject </label>
+          <input type="text" class="form-control subject" id="exampleInputPassword1" placeholder="Description..." required>
         </div>
-        
-        <button type="submit" class="btn btn-primary align-self-center">Send</button>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-primary my-3">Messege Body </label>
+          <input type="text" class="form-control body" id="exampleInputPassword1" placeholder="I Would like to know more..." style="height: 100px;" required>
+        </div>
+        <button type="button" class="btn btn-primary align-self-center">Send</button>
       </form>
 
     </section>
@@ -135,7 +137,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">And it's only the beginning...</h3>
         </div>
       </div>
       <div class="row portfolio-projects">
@@ -146,13 +148,13 @@
 
   <!-- Me -->
   <section class="bg-light" id="me" style="padding: 0px;">
-    <div class="row">
+    <div class="row bg-dark">
       <div class="col-sm-4">
         <div class="team-member">
-          <img class="mx-auto rounded-circle" src="img/team/me.png" alt="">
+          <img class="mx-auto mt-3 rounded-circle" src="img/team/me.png" alt="">
           <h4>Nadav Shambi</h4>
-          <p class="text-muted">Lead Marketer</p>
-          <ul class="list-inline social-buttons">
+          <p class="text-muted">FullStack Dev.</p>
+          <ul class="list-inline social-buttons mb-2">
             <li class="list-inline-item">
               <a href="https://github.com/NadavShambi">
                 <i class="fa fa-github"></i>
@@ -167,11 +169,21 @@
         </div>
       </div>
       <div class="col-sm-8 flex-align-center">
-        <p class="large text-muted  about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-          eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-          totam corporis ea, alias ut unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-          laboriosam veritatis, quos non quis ad perspiciatis,
-          totam corporis ea, alias ut unde.</p>
+        <div class="container flex-align-center">
+          <p class="large text-light  about-description" style="width: 100%; letter-spacing: .05em; text-align: center;">
+ Hey there!
+    My name is Nadav,
+     I'm a 23 years old FullStack developer
+      From Israel.
+      My passion is learning about technology
+       and computer software.
+       I love staying up to date with the latest
+        technology and learning all about how it works.
+  
+          
+              </p>
+        </div>
+        
       </div>
     </div>
   </section>
