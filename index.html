@@ -30,10 +30,25 @@
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
   <aside class="offcanvas-aside">
-    <a href="./projects/touchTheNums/index.html"></a>
+   
     <!-- Contact -->
     <section>
-      <h4>Contact Me</h4>
+      <form class="actual-form">
+      <h4 class="text-primary my-3">Contact Me</h4>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-primary my-3">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1"
+          placeholder="example@mail.com" 
+          palcearia-describedby="emailHelp">
+          
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-primary my-3">Description </label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tell me more about...">
+        </div>
+        
+        <button type="submit" class="btn btn-primary align-self-center">Send</button>
+      </form>
+
     </section>
 
   </aside>
@@ -77,43 +92,33 @@
 
   <!-- Services -->
   <a name="services"></a>
-  <section>
+  <section class="specialities">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Specialities</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-light">Specialities</h2>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_j9hu1mkh.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop  autoplay></lottie-player>
+          <h4 class="service-heading">Creativity</h4>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
             quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_2UeWRZ.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop  autoplay></lottie-player>
+          <h4 class="service-heading">Keeps Evolving</h4>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
             quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_qy2hc1lc.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;" hover loop  autoplay></lottie-player>
+
+          <h4 class="service-heading">Consistent</h4>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
             quo inventore harum ex
             magni, dicta impedit.</p>
         </div>
@@ -146,7 +151,7 @@
           <p class="text-muted">Lead Marketer</p>
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/NadavShambi">
                 <i class="fa fa-github"></i>
               </a>
             </li>
@@ -179,21 +184,18 @@
         </div>
         <div class="col-md-4 flex-align-center">
           <ul class="list-inline social-buttons flex-align-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item flex-align-center">
-              <a href="#">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/NadavShambi">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/nadav-shambi-0a11a924b/"target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
           </ul>
         </div>
         <div class="col-md-4 flex-align-center">
@@ -215,7 +217,7 @@
   <!--@m Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content  bg-dark">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
             <div class="rl"></div>
@@ -226,16 +228,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
+                <h2 class="text-light">Project Name</h2>
                 <p class="item-intro text-muted"></p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p class="desc"></p>
+                <p class="desc text-muted"></p>
                 <a href="" class="to-project" target="_blank"> <h3>Give It A Try!</h3></a>
                 <ul class="list-inline">
-                  <li class="date">Date: January 2017</li>
+                  <li class="date text-light">Date: January 2017</li>
                   <li class="tags my-3">
-                    <button type="button" class="btn btn-dark">dark</button>
-                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-danger p-3 mx-2">danger</button>
+                    <button type="button" class="btn btn-info p-3 mx-2">Info</button>
 
                   </li>
                  
@@ -262,6 +264,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="js/ca-gallery.js"></script>
   <script src="js/offCanvas.js"></script>
   <script src="js/services/projects-service.js"></script>

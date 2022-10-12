@@ -16,7 +16,7 @@ function renderPortfoliosItems(){
     return`
     <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" data-id="${project.id}">
-            <div class="portfolio-hover d-flex align-items-center justify-content-center">
+            <div class="portfolio-hover d-flex align-items-center justify-content-center bg-dark">
               <div class="portfolio-hover-content ">
                 <i class="fa fa-plus fa-3x"></i>
               </div>
@@ -43,38 +43,7 @@ function onRenderModal(id){
   $elModal.find('.desc').text(project.desc)
   $elModal.find('.to-project').attr('href',`${project.url}`)
   $elModal.find('.date').text(`Published At: ${project.publishedAt}`)
-  $elModal.find('.btn-dark').text(project.labels[0])
+  $elModal.find('.btn-danger').text(project.labels[0])
   $elModal.find('.btn-info').text(project.labels[1])
 }
-
-  `
-
-<!--@m Modal 1 -->
-
-              <!-- Project Details Go Here -->
-              <h2>Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                blanditiis
-                dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae
-                cupiditate,
-                maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-              <ul class="list-inline">
-                <li>Date: January 2017</li>
-                <li>Client: Threads</li>
-                <li>Category: Illustration</li>
-              </ul>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fa fa-times"></i>
-                Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`
-
 

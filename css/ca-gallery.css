@@ -18,6 +18,14 @@ a:hover {
     color: #fec503;
 }
 
+.specialities{
+    background: linear-gradient(to bottom, #333 , #eee3);
+}
+
+h2.section-heading.text-light{
+    letter-spacing: .1em;
+}
+
 h1,
 h2,
 h3,
@@ -100,7 +108,8 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: linear-gradient(#333,#3239,#222);
+    border-left: 2px solid #eee;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -114,6 +123,14 @@ body {
 .offcanvas-aside img {
     border-radius: 50%;
 }
+
+.actual-form{
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    /* background: linear-gradient(45deg, #333,#eee9,#333); */
+}
+
 
 .offcanvas-aside p {
     text-align: center;
@@ -222,7 +239,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/header-bg3.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
