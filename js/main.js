@@ -6,6 +6,7 @@ function init(){
   // $('.portfolio-link').on('click',(puki)=>{onRenderModal(puki.currentTarget.dataset.id)})
   $('.portfolio-link').on('click',function(){onRenderModal(this.dataset.id)})
   $('.contact-form .btn').on('click',function(){openSendEmail()})
+  
 
 }
 
