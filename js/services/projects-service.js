@@ -5,7 +5,7 @@ const gProjects = [
       title: "Better push those Numbers",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/Touch-Nums/",
-      publishedAt: 1448693940000,
+      publishedAt: '15/09/22',
       labels: ["Matrixes", "click events"]
     },
     {
@@ -14,7 +14,7 @@ const gProjects = [
       title: "Always answer your pets first!",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/NadavShambi-fun-w-Css/",
-      publishedAt: 1448693940000,
+      publishedAt: '13/07/22',
       labels: ["CSS ONLY", "UX"]
     },
     {
@@ -23,7 +23,7 @@ const gProjects = [
       title: "Order colors",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/Shambour/",
-      publishedAt: 1448693940000,
+      publishedAt: '29/09/22',
       labels: ["Flex Box", "Responsive Design"]
     },
     {
@@ -32,7 +32,7 @@ const gProjects = [
       title: "Fan made Site",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/Rick-Morty/",
-      publishedAt: 1448693940000,
+      publishedAt: '11/10/22',
       labels: ["Bootstrap", "Responsive Design"]
     },
     {
@@ -41,7 +41,7 @@ const gProjects = [
       title: "Read Succeed",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/book-store/",
-      publishedAt: 1448693940000,
+      publishedAt: '03/10/22',
       labels: ["Warm", "Menegment App"]
     },
     {
@@ -50,7 +50,7 @@ const gProjects = [
       title: "Minesweeper with a twist!",
       desc: "lorem ipsum lorem ipsum lorem ipsum",
       url: "https://nadavshambi.github.io/minesweeper/",
-      publishedAt: 1448693940000,
+      publishedAt: '28/09/22',
       labels: ["Warm", "Menegment App"]
     }
   
