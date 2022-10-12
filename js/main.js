@@ -16,6 +16,7 @@ function openSendEmail(){
   const $subject = $elForm.find('.subject').val()
   const $email = $elForm.find('.email').val()
   const $body = $elForm.find('.body').val()
+  if(!$subject || !$body || !$email)return
   window.open(
   `https://mail.google.com/mail/?view=cm&fs=1&to=nadav.shambi@gmail.com&su=${$subject}&body=${$body}`)
   
