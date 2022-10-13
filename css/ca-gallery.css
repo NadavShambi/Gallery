@@ -920,8 +920,7 @@ img.img-fluid.align-self-center {
 
 .col-md-4.col-sm-6.portfolio-item:nth-child(odd){
     box-shadow: inset 0 0 150px #333;
-    padding: 50px;
 }
 .col-md-4.col-sm-6.portfolio-item:nth-child(even){
-    box-shadow: inset 0 0 50px #999;
+    box-shadow: inset 0 0 150px #999;
 }
